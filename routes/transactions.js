@@ -2,7 +2,6 @@ const express = require("express");
 const {sequelize, Transaction, User} = require("../models");
 const jwt = require("jsonwebtoken");
 const Joi = require("joi");
-const { required } = require("joi");
 require('dotenv').config();
 
 function authToken(req, res, next){
