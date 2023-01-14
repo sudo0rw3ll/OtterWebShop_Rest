@@ -2,7 +2,7 @@
   "name": "backend-nodejs-petar-sudo0rw3ll",
   "version": "1.0.0",
   "description": "backend domaci node",
-  "main": "app.js",
+  "main": "rest_service.js",
   "scripts": {
     "start": "node rest_service.js"
   },
