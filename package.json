@@ -1,23 +1,23 @@
 {
-    "name": "backend-nodejs-petar-sudo0rw3ll",
-    "version": "1.0.0",
-    "description": "backend domaci node",
-    "main": "app.js",
-    "scripts": {
-      "start": "node rest_service.js"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-      "bcrypt": "^5.0.1",
-      "connect-history-api-fallback": "^2.0.0",
-      "cors": "^2.8.5",
-      "dotenv": "^10.0.0",
-      "express": "^4.17.1",
-      "jsonwebtoken": "^8.5.1",
-      "mariadb": "^3.0.2",
-      "sequelize": "^6.9.0",
-      "sequelize-cli": "^6.3.0"
-    }
+  "name": "backend-nodejs-petar-sudo0rw3ll",
+  "version": "1.0.0",
+  "description": "backend domaci node",
+  "main": "app.js",
+  "scripts": {
+    "start": "node rest_service.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-history-api-fallback": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mariadb": "^3.0.2",
+    "mysql2": "^3.0.1",
+    "sequelize": "^6.9.0",
+    "sequelize-cli": "^6.3.0"
   }
-  
+}
