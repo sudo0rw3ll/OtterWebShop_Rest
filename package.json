@@ -19,6 +19,5 @@
     "mysql2": "^3.0.1", 
     "sequelize": "^6.9.0",
     "sequelize-cli": "^6.3.0"
-    
   }
 }
