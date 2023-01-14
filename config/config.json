@@ -1,23 +1,53 @@
 {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "web_shop_db",
-    "host": "127.0.0.1",
-    "dialect": "mariadb"
+    "password": "40Nih9XMwW7kExMb6V8GeGgxYuZQ9Oqs",
+    "database": "webshopdb",
+    "host": "dpg-cf19q694reb5o41ea6i0-a.frankfurt-postgres.render.com",
+    "url" : "postgres://root:40Nih9XMwW7kExMb6V8GeGgxYuZQ9Oqs@dpg-cf19q694reb5o41ea6i0-a.frankfurt-postgres.render.com/webshopdb",
+    "port" : 5432,
+    "dialect": "postgres",
+    "logging": false,
+    "sl1" : true,
+    "dialectOptions": {
+      "ssl" : {
+        "require" : true,
+        "rejectUnauthorized": false
+      }
+    }
   },
   "test": {
     "username": "root",
-    "password": null,
-    "database": "database_test",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "password": "40Nih9XMwW7kExMb6V8GeGgxYuZQ9Oqs",
+    "database": "webshopdb",
+    "host": "dpg-cf19q694reb5o41ea6i0-a.frankfurt-postgres.render.com",
+    "url" : "postgres://root:40Nih9XMwW7kExMb6V8GeGgxYuZQ9Oqs@dpg-cf19q694reb5o41ea6i0-a.frankfurt-postgres.render.com/webshopdb",
+    "port" : 5432,
+    "dialect": "postgres",
+    "logging": false,
+    "sl1" : true,
+    "dialectOptions": {
+      "ssl" : {
+        "require" : true,
+        "rejectUnauthorized": false
+      }
+    }
   },
   "production": {
     "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "password": "40Nih9XMwW7kExMb6V8GeGgxYuZQ9Oqs",
+    "database": "webshopdb",
+    "host": "dpg-cf19q694reb5o41ea6i0-a.frankfurt-postgres.render.com",
+    "url" : "postgres://root:40Nih9XMwW7kExMb6V8GeGgxYuZQ9Oqs@dpg-cf19q694reb5o41ea6i0-a.frankfurt-postgres.render.com/webshopdb",
+    "port" : 5432,
+    "dialect": "postgres",
+    "logging": false,
+    "sl1" : true,
+    "dialectOptions": {
+      "ssl" : {
+        "require" : true,
+        "rejectUnauthorized": false
+      }
+    }
   }
 }
